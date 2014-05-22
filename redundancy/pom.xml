@@ -1,0 +1,84 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>nl.wisdelft.twitter.analytics</groupId>
+  <artifactId>redudancy</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>redudancy</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-context</artifactId>
+    	<version>4.0.4.RELEASE</version>
+    </dependency>
+    <dependency>
+    	<groupId>de.l3s.boilerpipe</groupId>
+    	<artifactId>boilerpipe</artifactId>
+    	<version>1.1.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-jdbc</artifactId>
+    	<version>4.0.4.RELEASE</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.twitter4j</groupId>
+    	<artifactId>twitter4j-core</artifactId>
+    	<version>4.0.1</version>
+    </dependency>
+    <dependency>
+    	<groupId>nz.ac.waikato.cms.weka</groupId>
+    	<artifactId>weka-stable</artifactId>
+    	<version>3.6.11</version>
+    </dependency>
+    <dependency>
+    	<groupId>mx.bigdata.jcalais</groupId>
+    	<artifactId>j-calais</artifactId>
+    	<version>1.0</version>
+    </dependency>
+    <dependency>
+		<groupId>org.codehaus.jettison</groupId>
+		<artifactId>jettison</artifactId>
+		<version>1.3.5</version>
+	</dependency>
+    <dependency>
+    	<groupId>org.apache.httpcomponents</groupId>
+    	<artifactId>httpclient</artifactId>
+    	<version>4.3.3</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>3.3.2</version>
+    </dependency>
+    <dependency>
+		<groupId>edu.mit</groupId>
+    	<artifactId>jwi</artifactId>
+    	<version>2.2.3</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/src/main/resources/edu.mit.jwi_2.2.3.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>edu.cmu</groupId>
+    	<artifactId>ws4j</artifactId>
+    	<version>1.0.0</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/src/main/resources/ws4j-1.0.0-SNAPSHOT.jar</systemPath>
+	</dependency>
+  </dependencies>
+</project>

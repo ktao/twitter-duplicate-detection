@@ -4,7 +4,7 @@ twitter-duplicate-detection
 The cleaned version of the experimental code used for our paper Groundhog Day: Duplicate Detection on Twitter
 
 ## Model Generation
-The duplicate detection needs a model. The model can be trained by 
+The duplicate detection needs a model. The model can be trained when feature data are ready. Instead, you can use the classification.model file as given. Of course, then you need the instance with the corresponding set of features.
 
 ## Configuration
 ### Database
@@ -19,3 +19,4 @@ The URLs in the tweets can lead us to external resources. For experimental purpo
 
 ### Named Entity Recognition
 The classes in the package of nl.wisdelft.twitter.analytics.redundancy.analyze .
+We applied Open Calais, DBpedia Spotlight, as well as Wikipedia Miner to the tweets as well as external resources. Note this needs time to compute the result.
